@@ -42,7 +42,7 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4                    &trans      &trans     &trans     &trans    &trans    &trans
+&bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4                    &trans      &trans     &trans     &trans    &trans    &soft_off
 &kp F1      &kp F2            &kp F3             &kp F4             &kp F5        &kp F6                          &kp F7      &kp F8     &kp F9     &kp F10   &kp F11   &kp F12
 &kp GRAVE   &kp EXCL          &kp AT             &kp HASH           &kp DOLLAR    &kp PRCNT                       &kp CARET   &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp TILDE
 &trans      &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &trans        &trans        &trans    &trans  &kp INSERT  &kp MINUS  &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE
@@ -63,7 +63,7 @@
             bindings = <
 &kp GRAVE   &kp F1             &kp F2           &kp F3      &kp F4            &kp F5                        &kp F6       &kp F7         &kp F8     &kp F9       &kp F10   &kt F11
 &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT                    &kp N6       &kp PAGE_DOWN  &kp UP     &kp PAGE_UP  &kp N0    &kp F12
-&trans      &trans             &trans           &trans      &trans            &trans                        &kp HOME     &kp LEFT       &kp DOWN   &kp RIGHT    &kp END   &soft_off
+&trans      &trans             &trans           &trans      &trans            &trans                        &kp HOME     &kp LEFT       &kp DOWN   &kp RIGHT    &kp END   &kp PIPE
 &trans      &trans             &trans           &trans      &trans            &trans      &trans    &trans  &kp KP_PLUS  &kp MINUS      &kp EQUAL  &kp LBKT     &kp RBKT  &kp BSLH
                                                 &trans      &trans            &trans      &trans    &trans  &trans       &kp DELETE     &trans
             >;
