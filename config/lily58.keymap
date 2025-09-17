@@ -60,11 +60,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp GRAVE   &kp F1             &kp F2           &kp F3      &kp F4            &kp F5                        &kp F6       &kp F7         &kp F8     &kp F9       &kp F10   &kp F11
-&kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT                    &kp N6       &kp PAGE_DOWN  &kp UP     &kp PAGE_UP  &kp N0    &kp F12
-&trans      &trans             &trans           &trans      &trans            &trans                        &kp HOME     &kp LEFT       &kp DOWN   &kp RIGHT    &kp END   &kp PIPE
-&trans      &trans             &trans           &trans      &trans            &trans      &trans    &trans  &kp KP_PLUS  &kp MINUS      &kp EQUAL  &kp LBKT     &kp RBKT  &kp BSLH
-                                                &trans      &trans            &trans      &trans    &trans  &kp DELETE   &trans         &trans
+&kp GRAVE   &kp F1             &kp F2           &kp F3      &kp F4            &kp F5                        &kp F6       &kp F7       &kp F8     &kp F9         &kp F10   &kp F11
+&kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT                    &kp N6       &kp PAGE_UP  &kp UP     &kp PAGE_DOWN  &kp N0    &kp F12
+&trans      &trans             &trans           &trans      &trans            &trans                        &kp HOME     &kp LEFT     &kp DOWN   &kp RIGHT      &kp END   &kp PIPE
+&trans      &trans             &trans           &trans      &trans            &trans      &trans    &trans  &kp KP_PLUS  &kp MINUS    &kp EQUAL  &kp LBKT       &kp RBKT  &kp BSLH
+                                                &trans      &trans            &trans      &trans    &trans  &kp DELETE   &trans       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
